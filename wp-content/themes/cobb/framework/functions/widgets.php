@@ -1,7 +1,7 @@
 <?php
 function siiimple_flickr_widget($args) {
 	$settings = get_option("widget_flickrwidget");
-	$themename = "Paragon";
+	$themename = "paragon";
 	$id = $settings['id'];
 	$number = $settings['number'];
 	echo $args['before_widget'];
@@ -29,7 +29,7 @@ function siiimple_flickr_widget($args) {
 
 function siiimple_flickr_widget_admin() {
 	$settings = get_option("widget_flickrwidget");
-	$themename = "Paragon";
+	$themename = "paragon";
 
 	// check if anything's been sent
 	if (isset($_POST['update_flickr'])) {

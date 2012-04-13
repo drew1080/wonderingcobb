@@ -1,0 +1,10 @@
+.sf-menu ul {
+	top: 1em;
+	width: 600px;
+}
+
+.sf-menu li {
+	display: inline;
+	float: left;
+	width: auto !important;
+}

@@ -1,5 +1,5 @@
 <?php
-	add_action('init', 'create_post_types');
+	//add_action('init', 'create_post_types');
 	function create_post_types() {
 		register_post_type(
 			'slide',

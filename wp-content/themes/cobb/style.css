@@ -629,7 +629,8 @@ body.archive .text-wrap {
 	text-align: center;
 	margin-left: 0;
 	margin-right: 40px;
-	margin-bottom: 40px
+	margin-bottom: 40px;
+	min-height: 400px;
 }
 
 h1.tagline-single {
@@ -847,7 +848,7 @@ body.home .text-wrap {
 	width: 200px;
 	margin-left: 40px;
 	margin-bottom: 50px;
-	
+	min-height: 400px;
 }
 
 .text-wrap .mosaic-block {

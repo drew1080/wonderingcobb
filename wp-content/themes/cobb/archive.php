@@ -67,7 +67,7 @@
 			<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 				
 				<!-- BEGIN mosaic-overlay -->
-				<a class="mosaic-overlay" id="zoom" href="<?php echo $fullimg[url]; ?>" width="<?php echo $fullimg[width]; ?>" height="<?php echo $fullimg[height]; ?>" alt="image" rel="gallery">
+				<a class="mosaic-overlay" id="zoom" href="<?php echo the_permalink() ?>" width="<?php echo $fullimg[width]; ?>" height="<?php echo $fullimg[height]; ?>" alt="image" rel="gallery">
 				&nbsp;
 				
 				<!-- END mosaic-overlay -->

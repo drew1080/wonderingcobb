@@ -24,13 +24,13 @@
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/framework/styles/<?php echo get_option('of_alt_stylesheet'); ?>" type="text/css" media="screen" />
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/framework/css/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/framework/css/superfish.css" type="text/css" media="screen" />
+	<!--<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/framework/css/nivo-slider.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/framework/css/anythingslider.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/framework/css/theme-minimalist-square.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/framework/css/kwicks.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/framework/css/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/framework/css/superfish.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/framework/css/tweetrotator.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/framework/css/tweetrotator.css" type="text/css" media="screen" />-->
 	<link href="http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Lobster+Two:regular,regularitalic" rel="stylesheet" type="text/css">
 	
@@ -47,6 +47,8 @@
 	
 	<!-- Load Fonts -->
 	<?php include (TEMPLATEPATH . '/framework/fonts/fonts.php'); ?>
+	
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/framework/css/wonderingcobb.css" type="text/css" media="screen" />
 	
 	<!-- Theme Hook -->
 	<?php wp_head(); ?>
